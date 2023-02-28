@@ -2,9 +2,11 @@
 
 ## COLOR
 
-- Primary:
-- Secondary:
+- Primary: #F53838
+- Secondary: 
 
+- Body color: #4F5665
+- Heading color: #0B132A
 ## BREAKPOINTS
 
 - sm: 640px
@@ -24,6 +26,8 @@
       - h1: 50px / 70px
       - h2: 35px / 50px (max-width: 100px)
       - h3: 35px / 50px
+      - h4: 25px / 30px
+      - h5: 18px  / 30px
   - Body:
     - Font-family: Rubik
     - Color: #4F5665
@@ -48,13 +52,12 @@
 
 - rounded-sm:
 - rounded: 10px
-- rounded-lg:
+- rounded-lg: 50px
 - rounded-full: 9999px
 
 ## Layout
-
-- Container
-- Container Fluid
+- Container: 1200px  (padding: 30px)
+- Container Fluid (padding: 30px)
 
 ## Components
 
@@ -62,6 +65,7 @@
 
 - Solid
 - Outline
+- Link
 
 ## Icons and Illustrations
 
