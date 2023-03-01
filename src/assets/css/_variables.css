@@ -16,6 +16,8 @@
     --rounded-lg: 3.125rem;
     --rounded-full: 9999px;
 
+    --border: 2px solid #ddd;
+    /* Border */
     /* Container */
     --container-padding: 1.875rem;
 

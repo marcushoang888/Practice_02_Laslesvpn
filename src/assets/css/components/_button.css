@@ -14,6 +14,7 @@
     border-radius: var(--rounded-lg);
     border: 1px solid var(--primary-color);
     text-align: center;
+    background-color: var(--bg-color);
 }
 
 .btn-solid {
@@ -24,3 +25,6 @@
     max-width: 15.625rem;
 }
 
+.btn-full {
+    max-width: none;
+}
