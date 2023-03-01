@@ -1,0 +1,19 @@
+.shadow {
+    --shadow-bg: rgb(245, 56, 56,0.35);
+    position: relative;
+}
+
+.shadow::after {
+    content: "";
+    position: absolute;
+    top: 1.25rem;
+    left: 50%;
+    z-index: -1;
+
+    transform: translateX(-50%);
+    height: 100%;
+    width: 85%;
+    background-color: var(--shadow-bg);
+    border-radius: inherit;
+    filter: blur(27px);
+}

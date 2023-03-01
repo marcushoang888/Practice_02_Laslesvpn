@@ -1,0 +1,12 @@
+.about-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding: 2.5rem 0;
+    background-color: var(--bg-color);
+}
+
+.about-container
+.about-item {
+    display: flex;
+    justify-content: center;
+}

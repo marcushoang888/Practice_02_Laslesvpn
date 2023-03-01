@@ -22,18 +22,5 @@
     border-radius: var(--rounded);
     padding: 1.125rem 2.25rem;
     max-width: 15.625rem;
-    position: relative;
 }
 
-.btn-solid::after {
-    content: "";
-    position: absolute;
-    top: 1.25rem;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 100%;
-    width: 85%;
-    background-color: rgb(245, 56, 56,0.35);
-    border-radius: inherit;
-    filter: blur(27px);
-}

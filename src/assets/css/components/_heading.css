@@ -4,8 +4,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Rubik", sans-serif;
-  color: #0b132a;
+  font-family: var(--heading-ff);
+  color: var(--heading-color);
   font-weight: 500;
 }
 
