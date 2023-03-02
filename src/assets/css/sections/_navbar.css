@@ -26,8 +26,12 @@
 .nav-link {
   font-style: var(--fs-base);
   line-height: 1;
+  transition: var(--transition);
 }
 
+.nav-link:hover {
+    color: var(--primary-color);
+}
 @media (max-width: 1024px) {
    .navbar-nav {
         display: none;
